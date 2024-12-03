@@ -24,5 +24,8 @@ void main() {
     
 
     soma(num1, num2);
+    sub(num1, num2);
+    divis(num1, num2);
+    mult(num1, num2);
     
 }
