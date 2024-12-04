@@ -20,7 +20,14 @@ void divis(int num1, int num2){
 void select(int num1, int num2){
     print("Selecione qual operação você deseja\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão");
 
-    var oper = stdin.readLineSync();
+    String? escolha = stdin.readLineSync();
+    var oper;
+    
+    if(escolha != null){
+        if(escolha != ""){
+            oper = escolha;
+        }
+    }
     
     switch (oper) {
         case "1":
@@ -42,8 +49,21 @@ void select(int num1, int num2){
 }
 void inicio(){
     print("Digite os números que deseja");
-    int num1 = int.parse(stdin.readLineSync()!);
-    int num2 = int.parse(stdin.readLineSync()!);
+    String? entrada = stdin.readLineSync();
+    int num1 = 0, num2 = 0;
+    if(entrada != null){
+        if(entrada != ""){
+            num1 = int.parse(entrada);
+        }
+    }
+
+    entrada = stdin.readLineSync();
+    if(entrada != null){
+        if(entrada != ""){
+            num2 = int.parse(entrada);
+        }
+    }
+
     select(num1, num2);
 }
 
