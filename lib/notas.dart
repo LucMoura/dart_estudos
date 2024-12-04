@@ -4,6 +4,7 @@ void incio(){
   List<String> notas = <String> [];
   getComando();
   adicionarNotas(notas);
+  listarLista(notas);
 
 
 }
@@ -41,6 +42,7 @@ String getComando(){
 
 void listarLista(List<String> notas){
   for(var i = 0; i < notas.length; i++){
-    
+    print(notas[i]);
   }
+  getComando();
 }
