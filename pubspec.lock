@@ -314,10 +314,17 @@ packages:
     dependency: "direct dev"
     description:
       name: test
+<<<<<<< HEAD
       sha256: f2a018e2baa6fce7c8daa55b8bdf4b3d7d165f82caac269e4cbe5edd666c0e4c
       url: "https://pub.dev"
     source: hosted
     version: "1.25.9"
+=======
+      sha256: be7697dcfa9d47333e6ceb38400b4c8b8de15dc97023e8eb219189ba19c5d423
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.25.11"
+>>>>>>> ef7be46 (nova aplicacao)
   test_api:
     dependency: transitive
     description:
@@ -330,10 +337,17 @@ packages:
     dependency: transitive
     description:
       name: test_core
+<<<<<<< HEAD
       sha256: "60ff490bb383858015df7b7a0d883301a426edf9033989f55f091d91efb9dfaf"
       url: "https://pub.dev"
     source: hosted
     version: "0.6.6"
+=======
+      sha256: "3e47cac78f28a4dd71ea232db15fda6345934f472c2f70f97d35476809e045ca"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.7"
+>>>>>>> ef7be46 (nova aplicacao)
   typed_data:
     dependency: transitive
     description:
