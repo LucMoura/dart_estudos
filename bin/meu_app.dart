@@ -2,19 +2,19 @@ import 'dart:io';
 
 
 void soma(int num1, int num2){
-        print(num1 + num2);
+    print("O valor é ${num1 + num2}");
 }
 
 void sub(int num1, int num2){
-    print(num1 - num2);
+    print("O valor é ${num1 - num2}");
 }
 
 void mult(int num1, int num2){
-    print(num1 * num2);
+    print("O valor é ${num1 * num2}");
 }
 
 void divis(int num1, int num2){
-    print(num1 / num2);
+    print("O valor é ${num1 / num2}");
 }
 
 void select(int num1, int num2){
@@ -48,7 +48,7 @@ void select(int num1, int num2){
     }
 }
 void inicio(){
-    print("Digite os números que deseja");
+    print("Digite o primeiro número");
     String? entrada = stdin.readLineSync();
     int num1 = 0, num2 = 0;
     if(entrada != null){
@@ -56,7 +56,8 @@ void inicio(){
             num1 = int.parse(entrada);
         }
     }
-
+    
+    print("Digite o segundo número");
     entrada = stdin.readLineSync();
     if(entrada != null){
         if(entrada != ""){
